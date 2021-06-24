@@ -1,0 +1,30 @@
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_fcb93"></div>
+  <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com/symbols/SSE-600519/" rel="noopener" target="_blank"><span class="blue-text">600519图表</span></a>由TradingView提供</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "width": 400,
+  "height": 600,
+  "symbol": "SSE:600519",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "zh_CN",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "studies": [
+    "MACD@tv-basicstudies",
+    "Volume@tv-basicstudies",
+    "MF@tv-basicstudies"
+  ],
+  "container_id": "tradingview_fcb93"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
